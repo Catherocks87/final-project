@@ -225,7 +225,7 @@ nav .current a:link, nav .current a:visited {
     background-color:#222222;
     border: none;
     color: white;
-    padding: 30px 28px;
+    padding: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -366,9 +366,9 @@ table, td, th {
    
    .container-footer {
     background-color: #222222;
-    padding: 31px 31px;
     padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 1.5em;
     
     }
 
@@ -396,10 +396,13 @@ table, td, th {
     }
  /* ALL YOUR DESKTOP STYLES STARTS HERE */ 
 
-     .body {
+    
 
-        font-size: 16px;
+     .body {
+      font-size: 16px;
      }
+
+    /* nav bar for desktop */  
 
      nav .container {
         display: flex;
@@ -449,14 +452,114 @@ table, td, th {
     }
 
     .about-text  {    
-    margin-left: 20px;
+    margin-left: 1.5em;
     
     }
 
     /* Our services section grid for desktop */
 
+    .grid-container .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-column-gap: 1em;
+        
+       }
 
- 
+       .container .service:nth-child(1),
+       .container .service:nth-child(2) {
+        grid-column: span 3;
+       }
+       
+       .container .service:nth-child(3),
+       .container .service:nth-child(4),
+       .container .service:nth-child(5) {
+        grid-column: span 2;
+       }
+
+       .button-services {
+            color: white;
+            padding: 30px 200px;
+            font-size: 17px;
+            font-family: open Sans; 
+       }
+
+       .three {
+        padding: 30px 118px;
+        font-size: 17px; 
+       }
+
+       .fixing h2 { 
+       margin-left: 1.5em; 
+       }
+
+    
+       /* Our team section grid for desktop */
+
+       .grid-containertwo .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-column-gap: 1em;
+       }
+
+       .container .team:nth-child(3) {
+       order:4;
+       }
+
+       .team .container {
+        margin-bottom: 1em;
+        background-color: #ffe6ac;
+        width: 200%;
+       }
+       
+      
+      /* Contact us section grid for desktop */
+
+      .grid-containerthree .container {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-column-gap: 2em;
+      }
+
+      .container .contacts:nth-child(2){
+       order:3;
+       grid-column: span 2;
+
+      }
+
+      .fix {
+        margin-bottom: 1em;
+      }
+
+    /* Footer for desktop */
+
+
+    .change {
+        background-color: #222222;
+        padding-left: 6.5em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+      
+       
+       
+
+
+
+
+
+     
+
+    
+
+     
+      
+   
+
+    
+
        
 
 

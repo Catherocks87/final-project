@@ -43,9 +43,9 @@
         </form>   
             </div> <!-- end container-->
             
-        
-
         </nav>
+
+
         <div class="header-welcome">
             <div class="container">
                 <h1>Welcome to Three Star Media</h1>
@@ -80,12 +80,13 @@
                     heading and some text-->
             </div><!--end container-->
         </section> <!--section about-->
+        
+        <section>
+            <div class="grid-container">
 
-        <section class="section-services">
-            <div class="fixing"><h2>Our Services</h2></div>
+            <div class="fixing"><h2>Our Services</h2></div>    
             <div class="container">
                 <div class="service"><img src="images/digital.jpg" alt=digital>
-                
                     <div class="service-text">
                         <h3>Digital Transformation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem 
@@ -93,7 +94,7 @@
                             reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
 
                         <button class="button-services">Digital Plans   ▶</button>
-                    </div>          
+                    </div>             
                 </div>
 
                 <div class="service"> <img src="images/marketing.jpg" alt=market>
@@ -114,8 +115,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo 
                         tempora animi mollitia eaque error qui 
                         consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                        
-                        <button class="button-services">Marketing Plans ▶</button>
+                         
+                        <button class="button-services three">Video Plans ▶</button>
                     </div>               
                 </div>
                 
@@ -128,7 +129,7 @@
                         consectetur in reprehenderit magnam at vitae 
                         corporis quaerat deleniti explicabo nisi?</p>
                         
-                        <button class="button-services">Marketing Plans ▶</button>
+                        <button class="button-services three">Web Plans ▶</button>
                     </div>               
                 </div>
 
@@ -141,13 +142,14 @@
                         consectetur in reprehenderit magnam at vitae 
                         corporis quaerat deleniti explicabo nisi?</p>
 
-                        <button class="button-services">Print Plans ▶</button>
+                        <button class="button-services three">Print Plans ▶</button>
                     </div>               
                 </div>
 
                 <!--one heading, five div's, each with an image, h3, para,
                      button ON A GRID(felxbox,NO HEIGHT)-->
             </div><!--end container-->
+        </div>
         </section> <!--section-services-->
 
         <section class="section-Vision">
@@ -164,11 +166,13 @@
             </div><!--end container-->
         </section> <!--section-vision-->
 
-        <section> 
+        <section>
+            <div class="grid-containertwo"> 
             <div class="fixing"><h2>Our Team</h2></div>
             <div class="container">
                 <div class="team"><img src="images/john.jpg" alt=john>
-                <div class="team-text">   
+                </div>   
+                <div class="team-text team">   
                 <h3>John Doe</h3>
                 <div class="subtitles"><h4>CEO and Co-owner</h4></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur 
@@ -176,10 +180,11 @@
                     Earum laudantium deleniti possimus? Voluptatem architecto repellendus 
                     harum sit voluptatum tempora.</p>
                 </div>
-                </div>
+                
 
                 <div class="team"><img src="images/bob.jpg" alt=bob>
-                    <div class="team-text">
+                </div>    
+                    <div class="team-text team"> 
                     <h3>Bob Rite</h3>
                 <div class="subtitles"><h4>CFO and Co-owner</h4></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur 
@@ -187,17 +192,21 @@
                         Earum laudantium deleniti possimus? Voluptatem architecto repellendus 
                         harum sit voluptatum tempora.</p>
                     </div>
-                </div>
+                
                 <!--a heading, and four div's with an image or some text elements-->
             </div><!--end container-->
+        </div>
         </section> <!--section-Team-->
 
         <section>
+            <div class="grid-containerthree">
             <div class="fixing"><h2>Contact Us</h2>
             </div>
             <div class="container">
+            <div class="contacts">
+            <div class="contact-form">
                 <h3>Send us a message</h3>
-            <div class="contact-form">    
+                
                 <form><label for="fname">Full Name</label><br>
                 <input class="text" type="text" id="fname" name="fname"></form><br>
 
@@ -210,10 +219,10 @@
                 <button class="button-send">Send</button><br>
 
             </div>
-
-            <h2>Hours of operation</h2>
-
-            <div class="table">
+        </div>
+        <div class="contacts">
+            <div class="table fix">
+                <h3>Hours of operation</h3>
             <table>
                 
                 <tr>
@@ -230,19 +239,23 @@
                 </tr>    
             </table>
             </div>
+        </div>
 
-
-            <h2>Location</h2>
+        <div class="contacts">    
+            <h3>Location</h3>
             <div class="map">
+                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89667.41707054558!2d-75.79584711490615!3d45.387016711500266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses-419!2sca!4v1669520738861!5m2!1ses-419!2sca" 
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
             </div>
+        </div>  
 
            
                 <!--a heading and three div's with a form a map embed, and a table 
                     for the hours of operation-->
             </div><!--end container-->
+        </div>
         </section>  <!--section-Contact-->
          
          
@@ -250,7 +263,7 @@
     </main>
 
     <footer>
-        <div class="container-footer">
+        <div class="container-footer change">
             <div class="footer-text">
             <p>Copyright &copy; Three Star Media, 2020</p>
             <p>All images are taken from <a href="#">Unsplash</a></p>
